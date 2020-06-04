@@ -27,5 +27,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/certifi
-%{python3_sitearch}/certifi-*.egg-info
+%{python3_sitelib}/certifi
+%{python3_sitelib}/certifi-*.egg-info
