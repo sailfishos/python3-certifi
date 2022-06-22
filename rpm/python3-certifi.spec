@@ -3,7 +3,7 @@ Summary:    Carefully curated collection of Root Certificates
 Version:    2020.04.05.1
 Release:    1
 License:    MPL 2.0
-URL:        https://pypi.org/project/certifi/
+URL:        https://github.com/sailfishos/python3-certifi
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
