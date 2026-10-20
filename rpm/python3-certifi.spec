@@ -1,6 +1,6 @@
 Name:       python3-certifi
 Summary:    Carefully curated collection of Root Certificates
-Version:    2020.04.05.1
+Version:    2026.10.19
 Release:    1
 License:    MPL 2.0
 URL:        https://github.com/sailfishos/python3-certifi
