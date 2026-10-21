@@ -2,7 +2,7 @@ Name:       python3-certifi
 Summary:    Carefully curated collection of Root Certificates
 Version:    2026.10.19
 Release:    1
-License:    MPL 2.0
+License:    MPL-2.0
 URL:        https://github.com/sailfishos/python3-certifi
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
@@ -22,10 +22,9 @@ hosts. It has been extracted from the Requests project.
 %{py3_build}
 
 %install
-rm -rf %{buildroot}
 %{py3_install}
 
 %files
-%defattr(-,root,root,-)
+%license LICENSE
 %{python3_sitelib}/certifi
 %{python3_sitelib}/certifi-*.egg-info
